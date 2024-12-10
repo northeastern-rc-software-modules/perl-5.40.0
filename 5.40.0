@@ -1,0 +1,18 @@
+#%Module
+module-whatis	 "Loads perl/5.40.0 module.
+
+This module was built on Tue Dec 10 03:08:32 AM EST 2024
+
+Perl (https://www.perl.org/) is a programming language.
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/perl-5.40.0
+
+To load the module, type:
+module load perl/5.40.0
+
+"
+
+conflict	 perl
+prepend-path	 PATH /shared/EL9/explorer/perl/5.40.0/bin
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/perl/5.40.0/lib
+prepend-path       LIBRARY_PATH /shared/EL9/explorer/perl/5.40.0/lib
